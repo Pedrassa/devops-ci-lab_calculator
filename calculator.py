@@ -1,8 +1,8 @@
 # calculator.py
 def add(x, y):
-    print( "adding" )
+    print(f"--- DEBUG: Calculating {x} + {y} ---")
     return x + y
 
 def subtract(x, y):
-    print( "subtracting" )
+    print(f"--- DEBUG: Calculating {x} - {y} ---")
     return x - y
