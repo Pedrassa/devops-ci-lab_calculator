@@ -31,4 +31,4 @@ jobs:
       # Step 4: Run the test suite (The "Test" phase)
       - name: Run Tests with Pytest
         run: |
-          pytest
+          pytest -s
