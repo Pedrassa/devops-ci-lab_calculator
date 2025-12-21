@@ -1,7 +1,7 @@
 # test_calculator.py
 import calculator
 
-print( "Starting test_calculator.py" )
+print(f"\n--- DEBUG: Starting test_calculator.py")
 
 def test_add():
     assert calculator.add(2, 3) == 5
